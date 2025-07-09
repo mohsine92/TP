@@ -4,6 +4,7 @@ const ageInput = document.querySelector("#age");
 const button = document.querySelector("button");
 const message = document.querySelector("#message");
 
+//free palestine
 form.addEventListener("submit", (e) => e.preventDefault());
 button.addEventListener("click", () => {
   const name = nameInput.value;
