@@ -3,8 +3,12 @@ document.querySelector("#name");
 const ageInput = 
 document.querySelector("#age");
 const button =
-document.querySelector("#submit-btn");
+document.querySelector("button");
 const message = 
 document.querySelector("#message");
+const form = document.querySelector('form');
 
-button.addEventListener("submit", () => alert('a'))
+const submitEvent = () => alert('A');
+
+form.addEventListener('submit', submitEvent);
+button.addEventListener("click", submitEvent);
