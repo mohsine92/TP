@@ -5,6 +5,7 @@ const button = document.querySelector("button");
 const message = document.querySelector("#message");
 
 //free palestine
+//hgfgffgfhg
 form.addEventListener("submit", (e) => e.preventDefault());
 button.addEventListener("click", () => {
   const name = nameInput.value;
